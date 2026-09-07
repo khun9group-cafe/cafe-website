@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KHUN9 | Modern Thai & Asian Street Cuisine</title>
+  <meta name="description" content="KHUN9 — modern Thai café at Oasis Shopping Village, Palmerston. Open 9am–3pm daily. Signature monthly dish and drink." />
+  <meta name="theme-color" content="#16120e" />
+  <link rel="icon" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" aria-label="KHUN9">
+        <img class="nav-logo" src="images/logo.png" alt="KHUN9" width="180" height="61" />
+      </a>
+      <nav class="nav-links">
+        <a href="#specials">This month</a>
+        <a href="#menu">Menu</a>
+        <a href="#story">Heritage</a>
+        <a href="#visit">Visit</a>
+        <a class="btn btn-outline" data-order-online data-order-label="Order" data-visit-label="Visit us" href="#visit">Visit us</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu">☰</button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#specials">This month</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Heritage</a>
+      <a href="#visit">Visit</a>
+      <a data-order-online data-order-label="Order online" data-visit-label="Visit us" href="#visit">Visit us</a>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-media" id="hero-media">
+      <img class="poster" src="images/entrance-mural.jpg" alt="" />
+      <video id="hero-video" muted loop playsinline autoplay preload="auto" poster="images/entrance-mural.jpg">
+        <source src="videos/hero-loop.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-scrim"></div>
+    <div class="hero-ui">
+      <p class="hero-kicker">Palmerston · Northern Territory</p>
+      <h1 class="hero-title">KHUN<span>9</span></h1>
+      <p class="hero-tag">Modern Thai & Asian Street Cuisine</p>
+      <div class="gold-rule hero-line"></div>
+      <p class="hero-kicker2">A modern journey through Thai heritage</p>
+      <p class="hero-sub">From the floating markets of Thailand to Oasis Shopping Village.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#specials">This month’s specials</a>
+        <a class="btn btn-ghost" href="#menu">Explore the menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="specials">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Monthly promotions</p>
+        <h2>This <span data-month>September</span></h2>
+        <div class="gold-rule"></div>
+        <p class="lede">One signature dish and one signature drink, chosen each month. Order for pickup through Square, or ask at the counter.</p>
+      </div>
+      <div class="specials-grid">
+        <article class="panel promo" data-promo="dish">
+          <div class="promo-media">
+            <img src="images/dish-sum-tum.jpg" alt="KHUN9 Sum Tum" />
+            <span class="badge">Signature Dish</span>
+          </div>
+          <div class="promo-body">
+            <div>
+              <p class="eyebrow" data-month>September</p>
+              <h3 data-name>KHUN9 Sum Tum</h3>
+            </div>
+            <p data-blurb>House green papaya salad — lime, chilli, peanuts, and the snap of long beans. This month’s signature plate.</p>
+            <div class="promo-meta">
+              <p class="price" data-price>$20.90</p>
+              <div data-actions><a class="btn btn-outline" href="tel:+61889927667">Call to order</a></div>
+            </div>
+            <p class="note" data-note>Order at the counter, or call us to put it on for pickup.</p>
+          </div>
+        </article>
+        <article class="panel promo" data-promo="drink">
+          <div class="promo-media">
+            <img src="images/drink-thai-tea.jpg" alt="KHUN9 Thai Milk Tea" />
+            <span class="badge">Signature Drink</span>
+          </div>
+          <div class="promo-body">
+            <div>
+              <p class="eyebrow" data-month>September</p>
+              <h3 data-name>KHUN9 Thai Milk Tea</h3>
+            </div>
+            <p data-blurb>Deep-brewed Thai tea, condensed milk, crushed ice. The house glass for a Darwin afternoon.</p>
+            <div class="promo-meta">
+              <p class="price" data-price>$6.50</p>
+              <div data-actions><a class="btn btn-outline" href="tel:+61889927667">Call to order</a></div>
+            </div>
+            <p class="note" data-note>Order at the counter, or call us to put it on for pickup.</p>
+          </div>
+        </article>
+      </div>
+      <p class="footnote" data-footnote>Pickup at Oasis Shopping Village. Orders land in Square POS.</p>
+    </div>
+  </section>
+
+  <section class="section" id="story">
+    <div class="wrap">
+      <div class="story-grid">
+        <div class="story-copy">
+          <p class="eyebrow">Our story</p>
+          <h2>A taste of Thailand,<br /> a table in Palmerston</h2>
+          <div class="gold-rule"></div>
+          <p class="lead">Inspired by Thai life, craft, and the canals of the floating market, KHUN9 is a modern reading of heritage — breakfast through lunch, seven days.</p>
+          <p>Stilt houses on the mural, rattan and brass on the wall, boat noodles and Sum Tum on the pass. From our kitchen at Oasis Shopping Village to your table.</p>
+        </div>
+        <div class="frame">
+          <img src="images/entrance-mural.jpg" alt="Hand-painted Thai floating market mural at KHUN9" />
+        </div>
+      </div>
+      <div class="pair">
+        <figure class="panel">
+          <img src="images/story-wall.jpg" alt="Story wall mural" />
+          <figcaption>
+            <h3>Story wall</h3>
+            <p>Hand-painted floating houses and temples — the room you walk into.</p>
+          </figcaption>
+        </figure>
+        <figure class="panel">
+          <img src="images/craft-gallery.jpg" alt="Thai craft gallery" />
+          <figcaption>
+            <h3>Thai craft gallery</h3>
+            <p>Rattan, brass, ceramics, textiles, and lotus umbrellas.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">From our kitchen</p>
+        <h2>The menu</h2>
+        <div class="gold-rule"></div>
+      </div>
+      <div class="cards">
+        <article class="panel card">
+          <img src="images/dish-boat-noodles.jpg" alt="Boat Noodles" />
+          <div class="card-body">
+            <h3>Boat Noodles</h3>
+            <p>Beef, meatballs, aromatic herbs</p>
+            <p class="price">from $16.90</p>
+          </div>
+        </article>
+        <article class="panel card">
+          <img src="images/dish-chicken-rice.jpg" alt="Hainanese Chicken Rice" />
+          <div class="card-body">
+            <h3>Hainanese Chicken Rice</h3>
+            <p>Poached chicken, garlic rice, three sauces</p>
+            <p class="price">$23.90</p>
+          </div>
+        </article>
+        <article class="panel card">
+          <img src="images/dish-pad-thai.jpg" alt="Pad Thai" />
+          <div class="card-body">
+            <h3>Pad Thai</h3>
+            <p>Tamarind, peanuts, your protein</p>
+            <p class="price">$25.90</p>
+          </div>
+        </article>
+        <article class="panel card">
+          <img src="images/dish-green-curry.jpg" alt="Green Chicken Curry" />
+          <div class="card-body">
+            <h3>Green Chicken Curry</h3>
+            <p>Thai basil, coconut, jasmine rice</p>
+            <p class="price">$23.90</p>
+          </div>
+        </article>
+        <article class="panel card">
+          <img src="images/dish-smashed-avo.jpg" alt="Smashed Avo" />
+          <div class="card-body">
+            <h3>Smashed Avo</h3>
+            <p>Breakfast, until we close the kitchen</p>
+            <p class="price">$21.90</p>
+          </div>
+        </article>
+        <article class="panel card">
+          <img src="images/dish-mango-sticky-rice.jpg" alt="Mango Sticky Rice" />
+          <div class="card-body">
+            <h3>Mango Sticky Rice</h3>
+            <p>Coconut cream, ripe mango</p>
+            <p class="price">$12.90</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="panel menu-box">
+        <div class="tabs">
+          <button class="tab is-on" type="button" data-tab="breakfast">Breakfast</button>
+          <button class="tab" type="button" data-tab="noodles">Noodles</button>
+          <button class="tab" type="button" data-tab="rice">Rice</button>
+          <button class="tab" type="button" data-tab="salads">Salads</button>
+          <button class="tab" type="button" data-tab="sweets">Sweets</button>
+          <button class="tab" type="button" data-tab="drinks">Drinks</button>
+        </div>
+
+        <div data-panel="breakfast">
+          <p class="note" style="margin-bottom:1rem">Served all day while we are open.</p>
+          <ul class="menu-list">
+            <li><span>Eggs Benny</span><span class="price">$24.90</span></li>
+            <li><span>Croissant</span><span class="price">$12.90</span></li>
+            <li><span>Granola</span><span class="price">$16.90</span></li>
+            <li><span>Bacon & Egg Roll</span><span class="price">$14.90</span></li>
+            <li><span>Smashed Avo</span><span class="price">$21.90</span></li>
+            <li><span>Breakfast Burger</span><span class="price">$18.90</span></li>
+            <li><span>Big Breakfast</span><span class="price">$26.90</span></li>
+          </ul>
+        </div>
+        <div data-panel="noodles" hidden>
+          <ul class="menu-list">
+            <li><span>Boat Noodles<br /><small>Regular / Large</small></span><span class="price">$16.90 / $20.90</span></li>
+            <li><span>Pad Thai</span><span class="price">$25.90</span></li>
+            <li><span>Pad See Ew</span><span class="price">$25.90</span></li>
+            <li><span>Pad Kee Mao</span><span class="price">$25.90</span></li>
+          </ul>
+        </div>
+        <div data-panel="rice" hidden>
+          <ul class="menu-list">
+            <li><span>Hainanese Chicken Rice</span><span class="price">$23.90</span></li>
+            <li><span>Kao Mun Gai Tod</span><span class="price">$23.90</span></li>
+            <li><span>Basil Pork</span><span class="price">$23.90</span></li>
+            <li><span>Basil Chicken</span><span class="price">$23.90</span></li>
+            <li><span>Basil Beef</span><span class="price">$25.90</span></li>
+            <li><span>Basil Prawn</span><span class="price">$27.90</span></li>
+            <li><span>Basil Squid</span><span class="price">$25.90</span></li>
+            <li><span>Basil Mixed</span><span class="price">$29.90</span></li>
+            <li><span>Basil Tofu</span><span class="price">$21.90</span></li>
+            <li><span>Green Chicken Curry</span><span class="price">$23.90</span></li>
+          </ul>
+        </div>
+        <div data-panel="salads" hidden>
+          <ul class="menu-list">
+            <li><span>KHUN9 Sum Tum<br /><small>Regular / Large</small></span><span class="price">$20.90 / $24.90</span></li>
+            <li><span>Thai Beef Salad</span><span class="price">$24.90</span></li>
+            <li><span>Vermicelli Salad<br /><small>Regular / Large</small></span><span class="price">$20.90 / $24.90</span></li>
+          </ul>
+        </div>
+        <div data-panel="sweets" hidden>
+          <ul class="menu-list">
+            <li><span>KHUN9 Binsu</span><span class="price">$12.90</span></li>
+            <li><span>KHUN9 Sweet Binsu</span><span class="price">$14.90</span></li>
+            <li><span>Mango Sticky Rice</span><span class="price">$12.90</span></li>
+          </ul>
+        </div>
+        <div data-panel="drinks" hidden>
+          <ul class="menu-list">
+            <li><span>KHUN9 Thai Milk Tea</span><span class="price">$6.50</span></li>
+            <li><span>KHUN9 Coconut Smoothie</span><span class="price">$8.90</span></li>
+            <li><span>KHUN9 Mixed Berry Smoothie</span><span class="price">$8.90</span></li>
+            <li><span>Espresso drinks<br /><small>Latte, cappuccino, long black, flat white, mocha</small></span><span class="price">from $4.50</span></li>
+            <li><span>Iced coffee & tea<br /><small>Iced coffee, Thai tea, lemon tea, matcha, mocha</small></span><span class="price">from $5.50</span></li>
+            <li><span>Milkshakes<br /><small>Chocolate, vanilla, Thai tea, coconut, Oreo and more</small></span><span class="price">$7.50</span></li>
+            <li><span>Smoothies<br /><small>Mango, mixed berry, banana, green apple, strawberry</small></span><span class="price">$8.50</span></li>
+            <li><span>Soft drink / juice / water</span><span class="price">from $3.50</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-scans">
+        <a href="menu/menu-food.jpg" target="_blank" rel="noreferrer"><img src="menu/menu-food.jpg" alt="Printed food menu" /></a>
+        <a href="menu/menu-drinks.jpg" target="_blank" rel="noreferrer"><img src="menu/menu-drinks.jpg" alt="Printed drinks menu" /></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="visit">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Come visit</p>
+        <h2>Your table awaits</h2>
+        <div class="gold-rule"></div>
+      </div>
+      <div class="visit-grid">
+        <div class="frame">
+          <iframe title="KHUN9 on Google Maps" src="https://maps.google.com/maps?q=Oasis%20Shopping%20Village%2C%20Shop%2039%2F15%20Temple%20Terrace%2C%20Palmerston%20City%20NT%200830&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="panel visit-card">
+          <div>
+            <h3>Location</h3>
+            <p>Oasis Shopping Village, Shop 39/15 Temple Terrace<br />Palmerston City NT 0830</p>
+            <p style="margin-top:0.75rem"><a href="https://www.google.com/maps/search/?api=1&query=Oasis+Shopping+Village+Shop+39%2F15+Temple+Terrace+Palmerston+City+NT+0830" target="_blank" rel="noopener noreferrer">Open in Google Maps</a></p>
+          </div>
+          <div>
+            <h3>Hours</h3>
+            <p>Monday to Sunday<br />9:00 am – 3:00 pm</p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p><a href="tel:+61889927667">08 8992 7667</a></p>
+            <p style="margin-top:0.4rem"><a href="mailto:khun9.group@gmail.com">khun9.group@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <img src="images/logo.png" alt="KHUN9" />
+    <p class="tag">Modern Thai & Asian Street Cuisine</p>
+    <p class="small">Oasis Shopping Village, Shop 39/15 Temple Terrace, Palmerston City NT 0830</p>
+    <p class="small">© 2026 KHUN9</p>
+  </footer>
+
+  <script src="js/promotions.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
