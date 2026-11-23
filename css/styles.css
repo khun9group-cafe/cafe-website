@@ -62,7 +62,7 @@ p { text-wrap: pretty; }
   display: flex; align-items: center; justify-content: space-between;
   height: 4.25rem; width: min(72rem, calc(100% - 2.5rem)); margin-inline: auto;
 }
-.nav-logo { height: 2.5rem; width: auto; }
+.nav-logo { height: 3.25rem; width: auto; }
 .nav-links { display: none; align-items: center; gap: 2rem; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--cream-dim); }
 .nav-links a:hover { color: var(--gold); }
 .nav-toggle { width: 44px; height: 44px; font-size: 1.4rem; }
@@ -75,7 +75,7 @@ p { text-wrap: pretty; }
 @media (min-width: 768px) {
   .nav-links { display: flex; }
   .nav-toggle { display: none; }
-  .nav-logo { height: 2.75rem; }
+  .nav-logo { height: 3.5rem; }
 }
 
 /* Hero */
@@ -177,7 +177,7 @@ p { text-wrap: pretty; }
 .visit-card a { color: var(--gold); }
 
 footer { border-top: 1px solid color-mix(in oklab, var(--gold) 15%, transparent); padding: 2.5rem 1.25rem; text-align: center; }
-footer img { height: 2.5rem; width: auto; margin: 0 auto 1rem; }
+footer img { height: 7rem; width: auto; margin: 0 auto 1rem; }
 footer .tag { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--cream-dim); }
 footer .small { margin-top: 0.75rem; font-size: 0.75rem; color: color-mix(in oklab, var(--cream-dim) 60%, transparent); }
 
