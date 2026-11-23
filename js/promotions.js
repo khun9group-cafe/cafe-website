@@ -29,7 +29,7 @@ window.KHUN9 = {
       "House green papaya salad — lime, chilli, peanuts, and the snap of long beans. This month’s signature plate.",
     price: "$20.90",
     image: "images/dish-sum-tum.jpg",
-    squareCheckoutUrl: "",
+    squareCheckoutUrl: "https://khun9-modern-thai-asian-street.square.site",
   },
 
   drink: {
@@ -38,10 +38,10 @@ window.KHUN9 = {
       "Deep-brewed Thai tea, condensed milk, crushed ice. The house glass for a Darwin afternoon.",
     price: "$6.50",
     image: "images/drink-thai-tea.jpg",
-    squareCheckoutUrl: "",
+    squareCheckoutUrl: "https://khun9-modern-thai-asian-street.square.site",
   },
 
-  squareOrderOnlineUrl: "",
+  squareOrderOnlineUrl: "https://khun9-modern-thai-asian-street.square.site",
 
   venue: {
     name: "KHUN9",
