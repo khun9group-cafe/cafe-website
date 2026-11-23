@@ -20,7 +20,7 @@
  * If a URL is left as "", the button becomes “Call to order”.
  */
 window.KHUN9 = {
-  monthLabel: "September",
+  monthLabel: "Month",
   footnote: "Pickup at Oasis Shopping Village. Orders land in Square POS.",
 
   dish: {
