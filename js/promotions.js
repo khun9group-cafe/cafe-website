@@ -27,7 +27,7 @@ window.KHUN9 = {
     name: "KHUN9 Sum Tum",
     blurb:
       "House green papaya salad — lime, chilli, peanuts, and the snap of long beans. This month’s signature plate.",
-    price: "$20.90",
+    price: "$22.90",
     image: "images/dish-sum-tum.jpg",
     squareCheckoutUrl: "https://khun9-modern-thai-asian-street.square.site",
   },
@@ -36,7 +36,7 @@ window.KHUN9 = {
     name: "KHUN9 Thai Milk Tea",
     blurb:
       "Deep-brewed Thai tea, condensed milk, crushed ice. The house glass for a Darwin afternoon.",
-    price: "$6.50",
+    price: "$9.50",
     image: "images/drink-thai-tea.jpg",
     squareCheckoutUrl: "https://khun9-modern-thai-asian-street.square.site",
   },
